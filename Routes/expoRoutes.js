@@ -38,7 +38,7 @@ router.post('/approve-exhibitor',expoController.approveExhibitorRequest)
 router.post('/reject-exhibitor',expoController.rejectExhibitorRequest)
 
 // // http://localhost:3000/api/expo/id
-// router.put('/:id', expoController.updateexpo)
+
 
 // // http://localhost:3000/api/expo/id
 router.delete('/:id', expoController.deleteExpo)
